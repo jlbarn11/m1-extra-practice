@@ -1,0 +1,99 @@
+:root{
+  --red: #bf3636;
+  --orange: #d04936;
+  --yellow: #ffcc14;
+  --green: #5a5a23;
+  --blue: #303464;
+  --pink: #fe4b7a;
+  --purple: #741a60;
+  --brown: #40130e;
+  --light-gray: #eaeaea;
+  --med-gray: #555;
+  --dark-gray: #222;
+  font-size: 16px;
+  color: #222;
+}
+
+body{
+  background-color: var(--light-gray);
+  font-family: Raleway, sans-serif;
+  line-height: 1.3;
+}
+
+
+
+h1{
+  font-size: 2em;
+  font-weight: bold;
+  margin: 1em;
+}
+
+h1, h2{
+  grid-column: 1/-1;
+  text-align: center;
+}
+
+h2{
+  margin: 0.25em;
+}
+
+
+section{
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  margin: 1rem auto;
+  padding: 1em 1em 3em 1em;
+  background-color: white;
+  box-shadow: 5px 5px 5px #aaa;
+}
+
+p{
+  padding: 1em; 
+  font-size: 1.2em;
+}
+
+form{
+	width: 90%;
+	max-width: 180px;
+	margin: 0 auto 2rem auto;
+}
+
+button, input[type=submit]{
+  display: block;
+  margin: 0 auto;
+  background-color: var(--blue);
+  border: none;
+  outline: none;
+  color: white;
+  padding: 0.75em;
+  font-family: Raleway, sans-serif;
+  font-size: 1em;
+  box-shadow: 3px 3px 6px var(--med-gray);
+}
+
+button:hover, input[type=submit]:hover{
+   box-shadow: 6px 6px 10px var(--med-gray);
+}
+
+input, label{
+  display: block;
+  margin: 0.25em 0;
+  font-family: Raleway, sans-serif;
+}
+
+input[type=number]{
+  height: 2em;
+	margin: 0 auto 1rem auto;
+}
+
+ul{
+	list-style-type: round;
+	width: 80%;
+	margin: 1rem auto;
+	border-top: 3px solid var(--light-gray);
+}
+
+li{
+	padding: 0.5rem 0;
+}
